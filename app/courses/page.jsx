@@ -2,7 +2,7 @@
 import Courses from '@/components/Courses'
 import { useState, useEffect } from 'react'
 import LoadingPage from '../loading'
-import CourseSearch from '@/components/CoursesSearch'
+import CourseSearch from '@/components/CourseSearch'
 
 const CoursesPage = () => {
   const [courses, setCourses] = useState([])
